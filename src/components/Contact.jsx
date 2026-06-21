@@ -6,7 +6,7 @@ export default function Contact() {
           <h2 className="section__title">Contact</h2>
         </div>
         <div className="contact__box">
-          <h2 className="contact__h2">Let's talk <em>quality.</em></h2>
+          <h2 className="contact__h2">Let's talk.</h2>
           <p className="contact__sub">
             I'm open to Senior QA / SDET roles, consulting, and conversations about
             automation, testing strategy, or release engineering. Reach out — I reply
