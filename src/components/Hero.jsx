@@ -6,12 +6,12 @@ export default function Hero() {
       <div className="container">
         <div className="hero__wrapper">
           <div className="hero__content">
-            <p className="hero__eyebrow">Senior Quality Analyst · 9 years</p>
+            <p className="hero__eyebrow">Software Development Engineer in Test</p>
             <h1 className="hero__h1">
-              Quality is a process,<br /><em>not a final step.</em>
+              Hi, I'm Monika. I help teams ship faster, safer —<br /><em>and give users an experience worth trusting.</em>
             </h1>
             <p className="hero__sub">
-              Hi, I'm Monika. I help teams ship faster, safer — and give users an experience worth trusting. Quality built in from day one. I bring both the instinct of a manual tester and the rigour of an automation engineer.
+              SDET with 9 years of experience in manual testing, API testing, and UI automation — primarily in SaaS products across AI, Healthcare, Real Estate, and Media Delivery.
             </p>
           </div>
           

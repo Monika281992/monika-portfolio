@@ -5,7 +5,7 @@ export default function About() {
     <section id="about" className="section">
       <div className="container">
         <div className="section__header">
-          <h2 className="section__title">How I think about quality</h2>
+          <h2 className="section__title">My Approach to Quality</h2>
         </div>
 
         <div className="about__grid">
