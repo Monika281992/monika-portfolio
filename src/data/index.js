@@ -1,7 +1,7 @@
 export const metrics = [
-  { value: "1 day → 1hr", label: "Regression time cut at ImageKit" },
-  { value: "300+",        label: "E2E tests built with Playwright" },
-  { value: "2 deploys/week",   label: "Releases managed, zero critical escapes" },
+  { value: "400+",           label: "E2E tests built with Playwright" },
+  { value: "3 days → 1 day", label: "Regression time cut at ImageKit" },
+  { value: "720",            label: "Production releases managed at Clipboard Health" },
 ];
 
 export const toolGroups = [
@@ -60,7 +60,7 @@ export const experiences = [
     date: "Jan 2024 – Jul 2026",
     badge: "Remote",
     year: "2024 – 2026",
-    desc: "As the sole QA owner at ImageKit, I drove the quality strategy for product — designing and building a Playwright (JS) suite with 300+ E2E tests from scratch, integrated into CI/CD pipelines for continuous regression. Stayed hands-on with manual and exploratory testing on every new feature before release, covering cross-browser and device coverage. Collaborated closely with developers, designers, and PMs to review UI/UX designs and functionality flows early — catching gaps before development, unblocking teams faster, and ensuring every release shipped with confidence.",
+    desc: "Built and maintained a Playwright automation framework from scratch — 400+ test cases covering UI and API across 3 browsers, integrated into GitHub Actions CI/CD. Created a custom Slack report that included the latest code commit diff, helping the team pinpoint exactly which commit introduced a bug. Manually tested 20+ DAM features end-to-end — including the URL-based image transformation editor, creative automation, templates, and the full DAM UI revamp.",
     tags: [
       { name: "Playwright",      green: true },
       { name: "GitHub Actions",  green: true },
@@ -76,7 +76,7 @@ export const experiences = [
     date: "Sep 2021 – Jul 2023",
     badge: "Remote · YC",
     year: "2021 – 2023",
-    desc: "Clipboard Health is a YC + Sequoia-backed healthcare staffing marketplace connecting nurses with facilities across the US — I owned UAT sign-off, wrote user stories in Jira, defined acceptance criteria, and negotiated conflicting requirements with developers and stakeholders. Manually tested every new feature across the mobile app and web platform before release, contributed to the existing automation setup, and helped maintain product documentation including release notes and user guides.",
+    desc: "Clipboard Health is a YC + Sequoia-backed healthcare staffing marketplace connecting nurses with facilities across the US — I managed approximately 720 production releases, closely coordinating with QAs, PMs, and engineering teams to remove blockers and ensure smooth, on-time deployments. Tested the full onboarding flow revamp on Android and iOS, along with core worker app features including shift booking, instant pay, live ETA tracking, and in-app chat. Contributed to the existing UI and API automation test suite.",
     tags: [
       { name: "Release Management", green: true },
       { name: "BrowserStack",       green: false },
@@ -91,7 +91,7 @@ export const experiences = [
     date: "Aug 2019 – Sep 2021",
     badge: "Gurgaon",
     year: "2019 – 2021",
-    desc: "Built Cypress automated regression and smoke test scripts from scratch. API testing with Postman and database validation using SQL. Established quality gates that made every Agile sprint release-ready.",
+    desc: "Built the Cypress automation framework for the Housr website. Tested the revamped website and mobile app — covering payment gateway, meal coupons, rent management, and more. Engaged with stakeholders to convert business requirements into detailed JIRA tickets for the development team.",
     tags: [
       { name: "Cypress", green: true },
       { name: "Postman", green: false },
@@ -105,7 +105,7 @@ export const experiences = [
     date: "Apr 2017 – Aug 2019",
     badge: "Gurugram",
     year: "2017 – 2019",
-    desc: "Functional, regression, and cross-browser compatibility testing on a customer analytics dashboard. Authored SQL queries for data validation. Helped build QA processes and documentation standards that improved team efficiency.",
+    desc: "Tested chatbots for global brands including Pampers, WestJet, Singtel, and Aflac. Performed regression, functional, and production validation testing. Reviewed live chats to identify gaps in chatbot performance and managed defect lifecycle end-to-end in JIRA.",
     tags: [
       { name: "Functional Testing", green: false },
       { name: "SQL",                green: false },
@@ -117,12 +117,12 @@ export const experiences = [
 
 export const caseStudies = [
   {
-    title: "ImageKit's Regression: Faster, Smarter, Automated",
+    title: "400+ Tests, 3 Browsers, Zero Manual Regression Days",
     company: "ImageKit.io",
-    desc: "I built a Playwright framework from scratch using POM for maintainability, integrated it into GitLab CI and later migrated to GitHub Actions with scheduled jobs for continuous regression on every build. Wired up a Slack integration that broadcast live test results to the entire team. The Slack integration changed how the team experienced quality — bugs were visible to everyone the moment they appeared, fixes went out faster, and production quality became a shared responsibility rather than a QA bottleneck. What once took a full day now takes under an hour.",
+    desc: "I built a Playwright UI and API testing framework from scratch — Page Object Model for maintainability, integrated into GitLab CI then migrated to GitHub Actions with scheduled jobs. The custom Slack report included the latest code commit diff, so when a test failed, the team knew exactly which commit caused it and could fix it immediately. What once took 3 days of manual regression now takes 1 day.",
     pills: [
-      { bold: "300+", text: " E2E tests" },
-      { bold: "~1 day → <1 hr", text: " regression" },
+      { bold: "400+", text: " E2E tests" },
+      { bold: "3 days → 1 day", text: " regression" },
       { text: "GitHub Actions CI" },
       { text: "Slack integration" },
     ],
@@ -130,9 +130,9 @@ export const caseStudies = [
   {
     title: "High Stakes, High Frequency — Keeping Clipboard Health's Releases Clean",
     company: "Clipboard Health",
-    desc: "Twice a week, I coordinated 4–5 teams shipping simultaneously into a single release — for a healthcare app running 24/7 with zero downtime tolerance. I was the single point of contact for all release decisions, with full visibility to leadership. Release cut checklists, no last-minute merges, and a hard QA and product sign-off gate meant nothing critical ever slipped through. Before this process, releases were chaotic and consistently delayed — I brought structure, predictability, and confidence to every deployment.",
+    desc: "Clipboard Health is a two-sided healthcare marketplace where a broken app doesn't just affect UX — it directly impacts nurses' livelihoods and patient care. Shipping fast and shipping clean were both non-negotiable.\n\nI managed approximately 720 production releases — coordinating across QAs, PMs, and engineering teams via Slack and calls, enforcing a release cut checklist, no last-minute merges, and a hard QA and product sign-off gate. Before this process, releases were chaotic and consistently delayed — I brought structure, predictability, and confidence to every deployment. For hotfixes, the standard release process was bypassed — once QA and product gave the go-ahead, the fix went live immediately.",
     pills: [
-      { bold: "2 deploys/week", text: "" },
+      { bold: "720", text: " production releases" },
       { bold: "4–5 teams", text: " coordinated" },
       { text: "Zero critical escapes" },
     ],
